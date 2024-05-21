@@ -2616,8 +2616,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 928942817}
     m_Modifications:
     - target: {fileID: 5320556482462846370, guid: 0720f725016aa4c498cb81d910702bd8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0391
+      objectReference: {fileID: 0}
+    - target: {fileID: 5320556482462846370, guid: 0720f725016aa4c498cb81d910702bd8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -200.58844
+      value: -200.35
       objectReference: {fileID: 0}
     - target: {fileID: 5320556482462846370, guid: 0720f725016aa4c498cb81d910702bd8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7068,7 +7072,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1897084813
 Transform:
   m_ObjectHideFlags: 0
