@@ -501,6 +501,9 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8574771903679161581, guid: 1a4141b2185554c7aa3fdba6ddf4c56c, type: 3}
       insertIndex: 4
+      addedObject: {fileID: 1344895603}
+    - targetCorrespondingSourceObject: {fileID: 8574771903679161581, guid: 1a4141b2185554c7aa3fdba6ddf4c56c, type: 3}
+      insertIndex: 5
       addedObject: {fileID: 1344895602}
   m_SourcePrefab: {fileID: 100100000, guid: 1a4141b2185554c7aa3fdba6ddf4c56c, type: 3}
 --- !u!1001 &733558294
@@ -1120,6 +1123,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelTimer: {fileID: 1269142148}
   playerPrefsKey: LevelTime
+--- !u!114 &1344895603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344895600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cbf9578f56b94b5f8a3b5d8759ef6fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelCompleted: 1
 --- !u!1 &1367833492
 GameObject:
   m_ObjectHideFlags: 0
